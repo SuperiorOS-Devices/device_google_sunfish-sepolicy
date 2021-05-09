@@ -11,3 +11,7 @@ BOARD_SEPOLICY_DIRS += device/google/sunfish-sepolicy/vendor/verizon
 
 # Pixel-wide sepolicy
 BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/wifi_sniffer
+
+# Lineage Live-Display Sepolicy
+BOARD_SEPOLICY_DIRS += device/google/sunfish-sepolicy/sepolicy-lineage/dynamic
+BOARD_SEPOLICY_DIRS += device/google/sunfish-sepolicy/sepolicy-lineage/vendor
