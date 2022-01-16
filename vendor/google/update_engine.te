@@ -1,1 +1,3 @@
 get_prop(update_engine, public_vendor_default_prop)
+allow update_engine firmware_file:file r_file_perms;
+allow update_engine firmware_file:dir r_dir_perms;
